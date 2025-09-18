@@ -17,8 +17,8 @@
 
             <div>
                 <h2 class="text-2xl font-bold text-gray-800">{{ $doctor->name }}</h2>
-                <p class="text-gray-600"><span class="font-semibold">Spesialis:</span> {{ $doctor->spesialis }}</p>
-                <p class="text-gray-600"><span class="font-semibold">Pengalaman:</span> {{ $doctor->pengalaman }} tahun</p>
+                <p class="text-gray-600"><span class="font-semibold">Spesialis:</span> {{ $doctor->specialist }}</p>
+                <p class="text-gray-600"><span class="font-semibold">Pengalaman:</span> {{ $doctor->experience }} tahun</p>
                 <p class="text-gray-600"><span class="font-semibold">Jadwal:</span> {{ $doctor->jadwal_praktik }}</p>
                 <p class="text-gray-600"><span class="font-semibold">Biaya:</span> Rp {{ number_format($doctor->biaya_konsultasi,0,',','.') }}</p>
             </div>
